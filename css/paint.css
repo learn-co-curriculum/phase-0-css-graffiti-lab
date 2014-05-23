@@ -1,0 +1,67 @@
+body {
+  background: black url(../images/sketch.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#wall {
+  position: relative;
+  margin: 40px auto;
+  width: 980px;
+  height: 622px;
+  background: url(../images/wall.jpg) no-repeat center;
+  -moz-box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
+  -webkit-box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
+  box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
+  border: 15px solid white;
+  border-bottom: 60px solid white;
+}
+
+.tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980px;
+  height: 622px;
+}
+
+.tag-1 {
+  background: url(../images/tag-1.png) no-repeat;
+  z-index: 7;
+  display: block;
+}
+
+#wall #tag-2 {
+  background: url(../images/tag-2.png) no-repeat;
+  z-index: 6;
+  display: block;
+}
+
+div#wall #tag-3.slick {
+  background: url(../images/tag-3.png) no-repeat;
+  z-index: 5;
+  display: block;
+}
+
+#wall #tag-4 {
+  background: url(../images/tag-4.png) no-repeat;
+  z-index: 4;
+  display: block;
+}
+
+div#wall .parent #tag-5.slick {
+  background: url(../images/tag-5.png) no-repeat;
+  z-index: 3;
+  display: block;
+}
+
+div#wall div.parent div:last-child div#tag-6 {
+  background: url(../images/tag-6.png) no-repeat;
+  z-index: 2;
+  display: block;
+}
+
+body div#wall div.parent div > #tag-7.slick {
+  background: url(../images/tag-7.png) no-repeat;
+  z-index: 1;
+  display: block;
+}
