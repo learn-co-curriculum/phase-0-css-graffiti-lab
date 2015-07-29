@@ -1,8 +1,4 @@
----
-languages: html, css
-tags: dev tools, developer tools, style, selectors, authority, cascade, overrides, graffiti, kids
-resources: 3
----
+
 
 # CSS Graffiti Override
 
