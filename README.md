@@ -33,7 +33,7 @@ We need to override this and set it's display to `display: none;` instead. We ca
 
 This selects elements with a class of "tag-1" that happen to also be inside an element with an id of "wall". This is more specific and therefore will override the previous statement and hide the graffiti. For more info on how specificity in CSS works take a look at: [Smashing Magazines What you Need to Know About CSS Specificity](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/).
 
-Work you way through all seven graffiti pictures until the wall is fully clean. Do not use the CSS `!important` value as it is considered a bad practice! Also avoid adding inline or embedded CSS to the idex.html file, or by adding any additional classes or ids attributes to the index.html file either! This will make it more challenging as you will have to write CSS that is more specific based on the exisiting markup.
+Work your way through all seven graffiti pictures until the wall is fully clean. Do not use the CSS `!important` value as it is considered a bad practice! Also avoid adding inline or embedded CSS to the idex.html file, or by adding any additional classes or ids attributes to the index.html file either! This will make it more challenging as you will have to write CSS that is more specific based on the exisiting markup.
 
 ## Resources
 
