@@ -40,3 +40,5 @@ Work your way through all seven graffiti pictures until the wall is fully clean.
  * [Smashing Magazine - CSS Specificity](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/)
  * [CSS Tricks - CSS Specificity](http://css-tricks.com/specifics-on-css-specificity/)
  * [Code School - DiscoverDevTools](http://discover-devtools.codeschool.com/)
+
+<a href='https://learn.co/lessons/css-graffiti-override' data-visibility='hidden'>View this lesson on Learn.co</a>
