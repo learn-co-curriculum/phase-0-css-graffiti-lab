@@ -2,7 +2,7 @@
 
 # CSS Graffiti Override
 
-In this challenge you are asked to clean the graffiti tags off the wall by making use of in browser developer tools and writing selectors that are more specific (have greater authority) in order to override the existing styles.
+In this lab, you are asked to clean the graffiti tags off the wall by making use of in browser developer tools and writing selectors that are more specific (have greater authority) in order to override the existing styles.
 
 ## Steps
 
@@ -13,7 +13,7 @@ In this challenge you are asked to clean the graffiti tags off the wall by makin
 5. Open the [dev tools](http://discover-devtools.codeschool.com/) `Cmd+Option+i` and inspect elements of the graffiti wall making a note of the CSS styles used to add graffiti tags (as background images) to the wall.
 6. In the file css/cleanup.css write selectors that have more specificity (authority) than those that are showing the graffiti tags. Use the CSS declarartion `display:none;` changing the elements previously from display: block to display:none, which will hide that graffiti. 
 
-For example for tag-1 the developer tools reveal that the style applying the graffiti here is:
+For example for "tag-1" the developer tools reveal that the style applying the graffiti here is:
 
 ```
 .tag-1 {
@@ -23,7 +23,7 @@ For example for tag-1 the developer tools reveal that the style applying the gra
 }
 ```
 
-We need to override this and set it's display to `display: none;` instead. We can do this by writing a selector statement that is more specific such as:
+We need to override this and set its display to `display: none;` instead. We can do this by writing a selector statement that is more specific such as:
 
 ```
 #wall .tag-1 {
