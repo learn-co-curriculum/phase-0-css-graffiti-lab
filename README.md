@@ -35,6 +35,8 @@ This selects elements with a class of "tag-1" that happen to also be inside an e
 
 Work your way through all seven graffiti pictures until the wall is fully clean. Do not use the CSS `!important` value as it is considered a bad practice! Also avoid adding inline or embedded CSS to the index.html file, or by adding any additional class or id attributes to the index.html file either! This will make it more challenging as you will have to write CSS that is more specific based on the existing markup.
 
+After you finish, make sure you <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">install Firefox</a> if you haven't already as it is required for the screenshot tests to run. Then, type `learn` command from Terminal to run local tests.
+
 ## Resources
 
  * [Smashing Magazine - CSS Specificity](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/)
