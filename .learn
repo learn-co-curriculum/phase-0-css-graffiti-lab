@@ -11,6 +11,4 @@ tags:
   - overrides
   - graffiti
   - kids
-tests:
- - green_onion
 resources: 3
