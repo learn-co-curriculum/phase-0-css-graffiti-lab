@@ -6,13 +6,22 @@ In this lab, you are asked to clean the graffiti tags off the wall by making use
 
 ## Steps
 
+## Tasks for LearnIDE Environment Users
+
+1. Click the "OPEN IDE" button
+
+## Tasks for Local Environment Users
+
 1. Fork this repository.
 2. Clone your fork locally.
-3. cd into the local clone you just created.
-4. Open index.html in your browser (Chrome suggested).
-5. Open the [dev tools](http://discover-devtools.codeschool.com/) `Cmd+Option+i` and inspect elements of the graffiti wall making a note of the CSS styles used to add graffiti tags (as background images) to the wall.
-6. In the file css/cleanup.css write selectors that have more specificity (authority) than those that are showing the graffiti tags. Use the CSS declaration `display:none;` changing the elements previously from display: block to display:none, which will hide that graffiti. 
-7. (HINT: If you'd like to take a look at your handiwork, you can preview this in your browser by right-clicking the file in the file tree, and selecting "Open in Browser" .)
+3. `cd` into the local repo you just cloned.
+
+## Process
+
+1. Open index.html in your browser (Chrome suggested).
+2. Open the [dev tools](http://discover-devtools.codeschool.com/) `Cmd+Option+i` and inspect elements of the graffiti wall making a note of the CSS styles used to add graffiti tags (as background images) to the wall.
+3. In the file css/cleanup.css write selectors that have more specificity (authority) than those that are showing the graffiti tags. Use the CSS declaration `display:none;` changing the elements previously from display: block to display:none, which will hide that graffiti. 
+4. (HINT: If you'd like to take a look at your handiwork, you can preview this in your browser by right-clicking the file in the file tree, and selecting "Open in Browser" .)
 
 For example for "tag-1" the developer tools reveal that the style applying the graffiti here is:
 
