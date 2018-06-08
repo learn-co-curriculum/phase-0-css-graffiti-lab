@@ -1,29 +1,62 @@
 
+# CSS Graffiti Override Lab
 
-# CSS Graffiti Override
+## Problem Statement
+Imagine that you are walking down the street, and you notice that there's
+a mural that has been painted over with various graffiti tags. In reality,
+cleaning this up could be a challenging feat, however, in CSS, you have 
+power to manipulate the dom with just a line or two of code! In this lab, 
+we've created a virtual wall. Using only CSS, how can you remove the added
+elements that you no longer want to see? 
 
-In this lab, you are asked to clean the graffiti tags off the wall by making use of in browser developer tools and writing selectors that are more specific (have greater authority) in order to override the existing styles.
+## Objectives 
+1. Obtain the lab repository and launch the project
+2. Observe the browser developer tools 
+3. Use specificity to override existing styles
 
-## Steps
+## Obtain the Lab Repository and Launch the Project
 
-## Tasks for LearnIDE Environment Users
+#### For Learn IDE Environment Users
 
-1. Click the "OPEN IDE" button
+For users of the Learn platform, opening the files for this lab only requires
+one step; click the "OPEN IDE" button. This will fork the repo and open the
+project automatically.
 
-## Tasks for Local Environment Users
+#### For Local Environment Users
 
-1. Fork this repository.
-2. Clone your fork locally.
+If you're acquainted with Git, local environment users can follow these steps:
+1. Fork this repository from Github.
+2. Clone your Github fork locally.
 3. `cd` into the local repo you just cloned.
+4. Open index.html in your browser (Chrome suggested).
 
-## Process
+## Observe the Browser Developer Tools 
+Assuming you have opened the file in Chrome, open the [dev tools](http://discover-devtools.codeschool.com/). You can quickly access Chrome dev tools with the keyboard shortcut `Cmd+Option+i` 
+on a Mac, or by right/control-clicking anywhere in the window and selecting 
+`inspect`. 
+![Chrome Dev Tools](https://curriculum-content.s3.amazonaws.com/fewds-css/css-graffiti-override/inspect1.png "Open the Chrome dev tools")
+Inspect the elements of the graffiti wall in the dev tools by hovering
+over and clicking on nested elements. Take a close look at what's made available
+to you in the dev tools pane. You can see which stylesheets specific style 
+declarations live in, as well as create new styles on the fly. Now, make note 
+of the CSS styles used to add graffiti tags (as background images) to the wall. 
+![Chrome Dev Tools](https://curriculum-content.s3.amazonaws.com/fewds-css/css-graffiti-override/inspect2.png "Inspect the styles on each element")
 
-1. Open index.html in your browser (Chrome suggested).
-2. Open the [dev tools](http://discover-devtools.codeschool.com/) `Cmd+Option+i` and inspect elements of the graffiti wall making a note of the CSS styles used to add graffiti tags (as background images) to the wall.
-3. In the file css/cleanup.css write selectors that have more specificity (authority) than those that are showing the graffiti tags. Use the CSS declaration `display:none;` changing the elements previously from display: block to display:none, which will hide that graffiti. 
-4. (HINT: If you'd like to take a look at your handiwork, you can preview this in your browser by right-clicking the file in the file tree, and selecting "Open in Browser" .)
+## Use Specificity to Override Existing Styles
+In the file css/cleanup.css write selectors that have more specificity (authority) 
+than those that are showing the graffiti tags. You can test out writing classes in dev 
+tools by clicking the `+` in the top right-hand corner of the devl tools pane. You can 
+also click the `sources` tab and select css/cleanup.css in the dev tools pane. This 
+allows you to edit the CSS file directly. It *won't* save your changes, but it will
+give a live update of changes, so that it's easier to manipulate the dom without 
+refreshing the page. 
 
-For example for "tag-1" the developer tools reveal that the style applying the graffiti here is:
+To remove the tags, use the CSS declaration `display:none;`. It will change 
+the elements' previous display property value from `display: block` to `display: none`, 
+which will hide that graffiti.
+
+For example, for "tag-1" the developer tools reveal that the style applying the 
+graffiti here is:
 
 ```
 .tag-1 {
@@ -32,25 +65,25 @@ For example for "tag-1" the developer tools reveal that the style applying the g
   display: block;
 }
 ```
-
-We need to override this and set its display to `display: none;` instead. We can do this by writing a selector statement that is more specific such as:
+You'll need to override this by setting its display to `display: none;` instead. We can 
+do this by writing a selector statement that is more specific such as:
 
 ```
 #wall .tag-1 {
   display: none;
-}
-```
+} 
 
-This selects elements with a class of "tag-1" that happen to also be inside an element with an id of "wall". This is more specific and therefore will override the previous statement and hide the graffiti. For more info on how specificity in CSS works take a look at: [Smashing Magazines What you Need to Know About CSS Specificity](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/).
+This selects elements with a class of "tag-1" that happen to also be inside an element with 
+an id of "wall". This is more specific, and therefore will override the previous statement 
+and hide the graffiti. For more info on how specificity in CSS works take a look at: 
+[Smashing Magazines What you Need to Know About CSS Specificity](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/).
 
-Work your way through all seven graffiti pictures until the wall is fully clean. Do not use the CSS `!important` value as it is considered a bad practice! Also avoid adding inline or embedded CSS to the index.html file, or by adding any additional class or id attributes to the index.html file either! This will make it more challenging as you will have to write CSS that is more specific based on the existing markup.
+Work your way through all seven graffiti pictures until the wall is fully clean. You can
+take advantage of a [Specificity Calculator](https://specificity.keegan.st/) to assist
+with finding and understanding options for overriding styles. Do not use the CSS 
+`!important` value when you have access to the stylesheet, as it is considered a bad 
+practice! Avoid adding inline or embedded CSS to the index.html file, or any additional 
+class or id attributes to the index.html file either! This will make it more challenging 
+as you will have to write CSS that is more specific based on the existing markup.
 
-## Resources
-
- * [Smashing Magazine - CSS Specificity](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/)
- * [CSS Tricks - CSS Specificity](http://css-tricks.com/specifics-on-css-specificity/)
- * [Code School - DiscoverDevTools](http://discover-devtools.codeschool.com/)
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/css-graffiti-override' title='CSS Graffiti Override'>CSS Graffiti Override</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/css-graffiti-override'>CSS Graffiti Override</a> on Learn.co and start learning to code for free.</p>
+## Conclusion
