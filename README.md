@@ -100,6 +100,11 @@ or id attributes to the index.html file either.  This will make it more
 challenging as you will have to write CSS that is more specific based on the
 existing markup.
 
+## Moving On
+
+When you're ready to leave this lab, run `learn` from the command line. If the
+test pass, enter `learn submit`. You'll then be prompted to move on!
+
 ## Conclusion
 
 With the dev tools and resources on CSS specificity rules, work your way
