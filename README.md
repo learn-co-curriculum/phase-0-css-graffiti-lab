@@ -1,27 +1,27 @@
 # CSS Graffiti Override Lab
 
-## Problem Statement
+## Learning Goals
+
+- Use the browser developer tools
+- Override existing styles
+
+## Introduction
 
 Imagine that you are walking down the street, and you notice that there's a
 mural that has been painted over with various graffiti tags. In reality,
-cleaning this up could be a challenging feat; however, in CSS, you have power
+cleaning this up could be a challenging feat; however, in CSS, you have the power
 to manipulate the DOM with just a line or two of code and to restore the mural
 to its original look! In this lab, we've created a virtual wall. Using only
 CSS, how can you remove the unsightly tags?
 
-## Objectives
-
-1. Observe the browser developer tools
-2. Use specificity to override existing styles
-
 ## Obtain the Lab Repository and Launch the Project
 
-#### For Learn IDE Environment Users
+### For Learn IDE Environment Users
 
 For users of the Learn in-browser platform, click the "OPEN IDE" button. You
 will be editing through the text editor.
 
-#### For Local Environment Users
+### For Local Environment Users
 
 If you're acquainted with `git`, local environment users can follow these
 steps:
@@ -31,7 +31,7 @@ steps:
 3. `cd` into the local repo you just cloned.
 4. Open index.html in your browser (Chrome suggested).
 
-## Observe the Browser Developer Tools
+## Use the Browser Developer Tools
 
 Assuming you have opened the index file in Chrome, open the [dev tools][tools].
 You can quickly access Chrome dev tools with the keyboard shortcut
@@ -48,14 +48,14 @@ of the CSS styles used to add graffiti tags (as background images) to the wall.
 
 ![Chrome Dev Tools](https://curriculum-content.s3.amazonaws.com/fewds-css/css-graffiti-override/inspect2.png "Inspect the styles on each element")
 
-## Use Specificity to Override Existing Styles
+## Override Existing Styles
 
 In the file `css/cleanup.css`, write selectors that have more specificity
 (authority) than those that are showing the graffiti tags. You can test out
 writing classes in dev tools by clicking the `+` in the top right-hand corner
 of the pane. You can also click the `sources` tab and select `css/cleanup.css`
 in the dev tools pane. This allows you to edit the CSS file directly. It
-*won't* save your edits, but it will give a live update of changes, so that
+*won't* save your edits, but it will give a live update of changes so that
 it's easier to manipulate the DOM without refreshing the page. From there, you
 can copy and paste your working changes into the file in an IDE.
 
@@ -84,11 +84,10 @@ such as:
 }
 ```
 
-
 This selects elements with a class of "tag-1" that happen to also be inside an
 element with an id of "wall". This is more specific, and therefore will
 override the previous statement and hide the graffiti. For more info on how
-specificity in CSS works take a look at: [Smashing Magazines What you Need to
+specificity in CSS works take a look at: [Smashing Magazines What You Need to
 Know About CSS Specificity][smash].  You can also take advantage of a
 [Specificity Calculator][spec-calc] to assist with finding and understanding
 options for overriding styles.
@@ -111,7 +110,7 @@ With the dev tools and resources on CSS specificity rules, work your way
 through all seven graffiti pictures until the wall is fully clean. In your
 experimentation, you will find that there are many ways to manipulate and
 override the DOM. This will become a common practice as you build out more
-complex websites or work with cloud-hosted third party resources where you may
+complex websites or work with cloud-hosted third-party resources where you may
 not have direct access to the stylesheet.
 
 ## Resources
@@ -120,8 +119,6 @@ not have direct access to the stylesheet.
  * [CSS Tricks - CSS Specificity](http://css-tricks.com/specifics-on-css-specificity/)
  * [Code School - DiscoverDevTools](http://discover-devtools.codeschool.com/)
  * [Specificity Calculator](https://specificity.keegan.st/)
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/css-graffiti-override' title='CSS Graffiti Override'>CSS Graffiti Override</a> on Learn.co and start learning to code for free.</p>
 
 [tools]: http://discover-devtools.codeschool.com/
 [smash]: http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/
