@@ -123,4 +123,3 @@ not have direct access to the style sheet.
 [tools]: http://discover-devtools.codeschool.com/
 [smash]: http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/
 [spec-calc]: https://specificity.keegan.st/
-
