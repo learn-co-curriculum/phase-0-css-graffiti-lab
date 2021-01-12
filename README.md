@@ -14,22 +14,12 @@ to manipulate the DOM with just a line or two of code and to restore the mural
 to its original look! In this lab, we've created a virtual wall. Using only
 CSS, how can you remove the unsightly tags?
 
-## Obtain the Lab Repository and Launch the Project
+## Getting Started
 
-### For Learn IDE Environment Users
-
-For users of the Learn in-browser platform, click the "OPEN IDE" button. You
-will be editing through the text editor.
-
-### For Local Environment Users
-
-If you're acquainted with `git`, local environment users can follow these
-steps:
-
-1. Fork this repository from GitHub.
-2. Clone your GitHub fork locally.
-3. `cd` into the local repo you just cloned.
-4. Open index.html in your browser (Chrome suggested).
+Fork and clone this lesson into your local environment. Navigate into its directory
+in the terminal, then run `code .` to open the files in Visual Studio Code. Finally,
+run `bundle` to install the lab's dependencies. Run `rspec` as you go to see your
+test progress.
 
 ## Use the Browser Developer Tools
 
@@ -57,7 +47,7 @@ of the pane. You can also click the `sources` tab and select `css/cleanup.css`
 in the dev tools pane. This allows you to edit the CSS file directly. It
 *won't* save your edits, but it will give a live update of changes so that
 it's easier to manipulate the DOM without refreshing the page. From there, you
-can copy and paste your working changes into the file in an IDE.
+can copy and paste your working changes into the file.
 
 To remove the tags, use the CSS declaration `display:none;`. It will change the
 elements' previous display property value from `display: block` to `display:
@@ -101,8 +91,7 @@ existing markup.
 
 ## Moving On
 
-When you're ready to leave this lab, run `learn test` from the command line. If the
-test pass, enter `learn submit`. You'll then be prompted to move on!
+When you're ready to leave this lab, run `rspec` from the command line to confirm you've passed all tests.
 
 ## Conclusion
 
