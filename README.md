@@ -122,7 +122,6 @@ not have direct access to the style sheet.
 
  * [Smashing Magazine - CSS Specificity](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/)
  * [CSS Tricks - CSS Specificity](http://css-tricks.com/specifics-on-css-specificity/)
- * [Code School - DiscoverDevTools](http://discover-devtools.codeschool.com/)
  * [Specificity Calculator](https://specificity.keegan.st/)
 
 [tools]: http://discover-devtools.codeschool.com/
