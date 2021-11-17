@@ -18,8 +18,8 @@ only CSS, how can you remove the unsightly tags?
 
 Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Finally, run `bundle` to install the lab's dependencies. Run `rspec` as
-you go to see your test progress.
+Code. Finally, run `npm install` to install the lab's dependencies. Run
+`npm test` as you go to see your test progress.
 
 ## Use the Browser Developer Tools
 
@@ -50,7 +50,8 @@ to manipulate the DOM without refreshing the page. From there, you can copy and
 paste your working changes into the file.
 
 To remove the tags, use the CSS declaration `display:none;`. It will change the
-elements' previous display property value from `display: block` to `display: none`, which will hide that graffiti.
+elements' previous display property value from `display: block` to
+`display: none`, which will hide that graffiti.
 
 For example, for "tag-1" the developer tools reveal that the style applying the
 graffiti here is:
@@ -76,9 +77,9 @@ This selects elements with a class of "tag-1" that happen to also be inside an
 element with an id of "wall". This is more specific, and therefore will override
 the previous statement and hide the graffiti. For more info on how specificity
 in CSS works take a look at: [Smashing Magazines What You Need to Know About CSS
-Specificity][smash]. You can also take advantage of a
-[Specificity Calculator][spec-calc] to assist with finding and understanding
-options for overriding styles.
+Specificity][smash]. You can also take advantage of a [Specificity
+Calculator][spec-calc] to assist with finding and understanding options for
+overriding styles.
 
 **Do not use the CSS `!important` value**! It is considered a bad practice and
 should be used sparingly, in very specific edge-cases. For this lab, avoid
@@ -89,7 +90,7 @@ markup.
 
 ## Moving On
 
-When you're ready to leave this lab, run `rspec` from the command line to
+When you're ready to leave this lab, run `npm test` from the command line to
 confirm you've passed all tests.
 
 ## Saving Your Work Remotely
@@ -124,5 +125,6 @@ not have direct access to the style sheet.
 - [Specificity Calculator](https://specificity.keegan.st/)
 
 [tools]: http://discover-devtools.codeschool.com/
-[smash]: http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/
+[smash]:
+  http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/
 [spec-calc]: https://specificity.keegan.st/
