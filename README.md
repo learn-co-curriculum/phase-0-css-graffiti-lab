@@ -12,7 +12,7 @@ mural that has been painted over with various graffiti tags. In reality,
 cleaning this up could be a challenging feat; however, in CSS, you have the
 power to manipulate the DOM with just a line or two of code and to restore the
 mural to its original look! In this lab, we've created a virtual wall. Using
-only CSS, how can you remove the unsightly tags?
+only CSS, how can you remove the tags?
 
 ## Getting Started
 
