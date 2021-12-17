@@ -18,8 +18,7 @@ only CSS, how can you remove the tags?
 
 Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Finally, run `npm install` to install the lab's dependencies. Run
-`npm test` as you go to see your test progress.
+Code. Run `learn test` as you go to see your test progress.
 
 ## Use the Browser Developer Tools
 
@@ -90,24 +89,8 @@ markup.
 
 ## Moving On
 
-When you're ready to leave this lab, run `npm test` from the command line to
-confirm you've passed all tests.
-
-## Saving Your Work Remotely
-
-Currently, the work you've done on this assignment is only on your local
-machine. To preserve work on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use the
-following commands to do this:
-
-```console
-$ git add .
-$ git commit -m "Completed assignment"
-$ git push
-```
-
-If you visit your fork on GitHub, you should now see that _you've_ made the most
-recent commit, and your solution will be present in the files.
+When you're done, run `learn test` from the command line to confirm you've
+passed all tests.
 
 ## Conclusion
 
