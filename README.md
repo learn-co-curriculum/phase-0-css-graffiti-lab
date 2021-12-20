@@ -1,4 +1,4 @@
-# CSS Graffiti Override Lab
+# BONUS: CSS Graffiti Override Lab
 
 ## Learning Goals
 
