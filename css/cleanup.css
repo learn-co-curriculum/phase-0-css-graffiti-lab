@@ -1,1 +1,38 @@
 /* write your override styles here */
+.tag-1 {
+    background: url(../images/tag-1.png) no-repeat;
+    z-index: 7;
+    display: none;
+}
+
+wall #tag-2 {
+    background: url(../images/tag-2.png) no-repeat;
+    z-index: 6;
+    display: none;
+}
+
+div#wall #tag-3.slick {
+    background: url(../images/tag-3.png) no-repeat;
+    z-index: 5;
+    display: none;
+}
+#wall #tag-4 {
+    background: url(../images/tag-4.png) no-repeat;
+    z-index: 4;
+    display: none;
+}
+div#wall .parent #tag-5.slick {
+    background: url(../images/tag-5.png) no-repeat;
+    z-index: 3;
+    display: none;
+}
+div#wall div.parent div:last-child div#tag-6 {
+    background: url(../images/tag-6.png) no-repeat;
+    z-index: 2;
+    display: none;
+}
+body div#wall div.parent div > #tag-7.slick {
+    background: url(../images/tag-7.png) no-repeat;
+    z-index: 1;
+    display: none;
+}
