@@ -16,9 +16,9 @@ only CSS, how can you remove the tags?
 
 ## Getting Started
 
-Fork and clone this lesson into your local environment. Navigate into its
+**Fork and clone** this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Run `learn test` as you go to see your test progress.
+Code. Run `npm test` as you go to see your test progress.
 
 ## Use the Browser Developer Tools
 
@@ -89,7 +89,7 @@ markup.
 
 ## Moving On
 
-When you're done, run `learn test` from the command line to confirm you've
+When you're done, run `npm test` from the command line to confirm you've
 passed all tests.
 
 ## Conclusion
