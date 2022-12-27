@@ -90,7 +90,7 @@ markup.
 ## Moving On
 
 When you're done, run `npm test` from the command line to confirm you've
-passed all tests.
+passed all tests, then push and submit your work using CodeGrade.
 
 ## Conclusion
 
